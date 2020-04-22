@@ -1,4 +1,4 @@
-k{
+strong{
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: yellow;
@@ -20,9 +20,17 @@ a:link{
 
 body{
     background-color: azure;
+    color: lavender;
+
 }
 
 .container{
-    background-color: rgb(209, 118, 118);
+    background-color: rgb(73, 52, 52);
     
+}
+h1,h2,h3,h4,h5,h6{
+    color: rgb(114, 1, 195);
+}
+style{
+    background-color:rgb(73, 52, 52);
 }
