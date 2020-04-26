@@ -1,9 +1,22 @@
-"use strict"
-document.getElementById("button").onclick = function(){
-    setInterval(function() {
-        let date = new Date();
-        let dateString = date.toString();//date.getFullYear() + "-" + date.getMonth() + "-" + date.getDate() + ":" + date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
-        document.getElementById("clock").innerHTML = dateString;
-        document.getElementById("image").src ="image/giphy.gif";
-    }, 1000);    
-}
+"use strict";
+//1 Solution one
+// function myFunction(){
+//                 let x = document.getElementById("emailAddress").value;
+//                 let y = document.getElementById("pass").value;
+//                 let z = document.getElementById("url").value;
+//                 console.log(x);
+//                 console.log(y);
+//                 console.log(z);
+//               }
+
+//Alternative solution              
+document.getElementById("SignUpButton").onclick = function(){
+const formData = document.pageForm.elements;
+    for(let i = 0; i < formData.length; i++){
+        if(formData[i].type != "submit"){
+            console.log(formData[i].value);
+        }
+    }
+} 
+
+//2
