@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/webform.css" type="text/css">
+    <link rel="stylesheet" href="css/webform.css" type="text/css">
+    <script defer src="js/app1.js"></script>
     <title>New Product Form</title>
 </head>
 <body>
@@ -78,8 +79,10 @@
                   <div class="form-group">
                     <label for="supplier">Supplier</label>
                     <select name="supplier" id="supplier" required class="form-control">
-                      <option value="Select a supplier" selected>Select a supplier</option>
-                      <option value="Coffee">Coffee</option>
+                      <option value="" selected>Select a supplier</option>
+                      <option value="Amazon">Amazon</option>
+                      <option value="Epay">Epay</option>
+                      <option value="Walmart">Walmart</option>
                     </select>
                   </div>
 
@@ -108,7 +111,7 @@
                     <button type="button" class="btn btn-secondary btn-block">Cancel</button>
                   </div>
                   <div class="col-md-4">
-                    <button type="button" class="btn btn-primary btn-block bg-green">Add Product</button>
+                    <button type="button" class="btn btn-primary btn-block bg-green" id="NewProductNumber">Add Product</button>
                   </div>
               
                 
