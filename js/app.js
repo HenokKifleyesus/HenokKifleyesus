@@ -17,6 +17,7 @@ const formData = document.pageForm.elements;
             console.log(formData[i].value);
         }
     }
+    alert("Check answer at console");
 } 
 
 //2
