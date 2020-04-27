@@ -1,6 +1,10 @@
+
 "use strict";
 
-document.getElementById("NewProductNumber").onclick = function(){
+alert("Open the page");
+
+
+    document.getElementById("NewProductNumber").onclick = function(){
     let x = document.getElementById("productNumber").value;
     let y = document.getElementById("quantityInStock").value;
     let z = document.getElementById("name").value;
@@ -16,5 +20,6 @@ document.getElementById("NewProductNumber").onclick = function(){
             +"<br> Supplier:"+a
             +"<br> UnitPrice:"+b
             +"<br> DateSupplied:"+c);
+
 
 }
