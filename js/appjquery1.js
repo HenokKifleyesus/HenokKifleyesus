@@ -24,7 +24,7 @@
 
 // }
 $(function(){
-$("#NewProductNumber").submit(
+$("#NewProductNumber").click(
     function(evt){
         evt.preventDefault();
         $(".container").append($("<div></div>",{
